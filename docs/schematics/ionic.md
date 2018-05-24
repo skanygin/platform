@@ -28,7 +28,7 @@ npm install --save-dev @angular/cli@latest
 * Make `@ngrx/schematics` the default collection as described in the [documentation](README.md#default-schematics-collection), e.g.:
 
 ```bash
-ng set defaults.schematics.collection=@ngrx/schematics
+ng config cli.defaultCollection @ngrx/schematics
 ```
 
 That command will modify the file `.angular-cli.json` so that you don't have to type `--collection @ngrx/schematics` with every command.
